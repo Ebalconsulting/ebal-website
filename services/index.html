@@ -31,8 +31,8 @@
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preload" href="/assets/fonts/alexandria-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/readex-pro-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/home.en.css?v=9c9fbf5b">
-<script src="/assets/js/home.en.js?v=2044166a" defer></script>
+<link rel="stylesheet" href="/assets/css/home.en.css?v=209fc2cf">
+<script src="/assets/js/home.en.js?v=641edb62" defer></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://ebalconsulting.org/#organization","name":"EBAL","legalName":"Jabal Ebal for Management Solutions and Consulting","alternateName":["شركة جبل عيبال للاستشارات الإدارية","عيبال"],"url":"https://ebalconsulting.org/","logo":{"@type":"ImageObject","url":"https://ebalconsulting.org/assets/img/icon-512.png","width":512,"height":512},"image":"https://ebalconsulting.org/assets/img/og-en.png","email":"info@ebalconsulting.org","telephone":"+962779374926","description":"Management consulting company registered in Jordan: project management, data, operations and tender support for NGOs, UN agencies and companies.","address":{"@type":"PostalAddress","addressLocality":"Amman","addressCountry":"JO"},"areaServed":[{"@type":"Country","name":"Jordan"},{"@type":"Place","name":"Gulf countries"},{"@type":"Place","name":"Middle East and North Africa"}],"knowsLanguage":["en","ar"],"contactPoint":[{"@type":"ContactPoint","contactType":"business development","name":"Business Development Manager","email":"info@ebalconsulting.org","telephone":"+962779374926","availableLanguage":["English","Arabic"],"areaServed":["JO","Gulf","MENA"]}]},{"@type":"WebSite","@id":"https://ebalconsulting.org/#website","url":"https://ebalconsulting.org/","name":"EBAL","inLanguage":["en","ar"],"publisher":{"@id":"https://ebalconsulting.org/#organization"}},{"@type":"WebPage","@id":"https://ebalconsulting.org/services/#webpage","url":"https://ebalconsulting.org/services/","name":"Consulting Services in Jordan for NGOs and Companies | EBAL","description":"Six consulting services for NGOs, UN agencies and companies, from proposals and data to tenders and data systems. Find the one closest to your problem.","inLanguage":"en","isPartOf":{"@id":"https://ebalconsulting.org/#website"},"about":{"@id":"https://ebalconsulting.org/#organization"},"breadcrumb":{"@id":"https://ebalconsulting.org/services/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ebalconsulting.org/services/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ebalconsulting.org/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://ebalconsulting.org/services/"}]}]}</script>
 </head>
 <body>
@@ -99,6 +99,13 @@
         <div class="finder__grid">
           <div class="finder__main">
             <h2 class="finder__title t-h3" id="finder-heading">Not sure which service fits? Start here</h2>
+            <fieldset class="aud aud--finder" id="hub-aud" hidden>
+        <legend class="label aud__legend">Show services for</legend>
+        <div class="aud__set">
+          <label class="aud__seg" for="hub-aud-ngo"><input type="radio" name="hub-audience" id="hub-aud-ngo" value="ngo" checked><span class="aud__t"><svg class="aud__check" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><polyline points="3,8.5 6.5,12 13,4.5"/></svg>NGOs and UN agencies</span></label>
+          <label class="aud__seg" for="hub-aud-company"><input type="radio" name="hub-audience" id="hub-aud-company" value="company"><span class="aud__t"><svg class="aud__check" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><polyline points="3,8.5 6.5,12 13,4.5"/></svg>Private-sector companies</span></label>
+        </div>
+            </fieldset>
             <div class="finder__group" id="finder-group" role="group" aria-labelledby="finder-heading">
               <p class="sentence" id="finder-sentence">We're <strong id="phrase-a">an NGO or UN agency</strong> and <strong id="phrase-b">our figures never match at report time</strong>.</p>
               
